@@ -1,35 +1,24 @@
-body{
-    background-size:cover;
+body
+{
+background-position: center;
+background-size: cover;
 }
+
 .heading
 {
-    font-size:23px;
-    width:100%;
-    margin:0;
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
-.object_name_input_box
+
+#status , #number_of_objects
 {
-    width:250px;
-    text-align:center;
+font-size: 18px;
 }
-.note
-{
-    color:black;
-    font-size:13px;
-}
-#start, #number_of_objects, #status
-{
-    font-size:18px;
-}
+
 canvas
 {
-  border: 2px solid white;
-  border-radius:10px;
-  margin-top:120px;
-  box-shadow:10px 10px white;
-}
-#start
-{
-    width:70px;
-    border-radius:25px;
+box-shadow: 5px 5px 5px lightgrey;
+border-radius: 10px;
+margin-top: 180px;
 }
